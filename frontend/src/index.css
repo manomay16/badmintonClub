@@ -1,0 +1,14 @@
+body { font-family: system-ui, sans-serif; margin: 0; padding: 12px; background: #f4f4f4; color: #111; }
+h1 { font-size: 20px; margin: 0 0 10px; }
+input { padding: 8px; font-size: 16px; width: 180px; }
+button { cursor: pointer; padding: 4px 8px; }
+small { color: #555; }
+.err { color: #b00; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-top: 10px; }
+.court { background: #fff; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
+.court h2 { font-size: 16px; margin: 0 0 6px; display: flex; justify-content: space-between; align-items: center; }
+.grp { border: 1px solid #ddd; border-radius: 6px; padding: 6px; margin: 6px 0; }
+.on { background: #e8f5e9; }
+.chip { display: inline-block; background: #eee; border-radius: 4px; padding: 2px 4px 2px 6px; margin: 2px; }
+.chip button { border: 0; background: none; color: #a00; padding: 0 2px; }
+.reset { margin-top: 16px; }
